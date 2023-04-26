@@ -1,4 +1,5 @@
 import sys #Used to manipulate different parts of the python runtime environment
+from src.logger import logging
 
 # Creates a custom error class
 def error_message_detail(error, error_detail:sys):
